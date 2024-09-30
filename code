@@ -1,0 +1,36 @@
+#include<stdio.h>
+using namespace std;
+
+
+int fizzbuzz() {
+    int x, y;
+    for (x = 1; x <= 100; x++)
+    {
+        if (x % 3 == 0)
+        {
+            printf("fizz\n");
+        }
+        if (x % 5 == 0)
+        {
+            printf("buzz\n");
+        }
+        if (x % 3 == 0 && x % 5 == 0)
+        {
+            printf("FizzBuzz\n");
+        }
+        printf("%d\n", x);
+    }
+    return 0;
+}
+
+
+int main() {
+
+
+
+
+
+
+
+    fizzbuzz();
+}
